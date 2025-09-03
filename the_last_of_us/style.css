@@ -1,0 +1,40 @@
+body {
+    background-color: #d2d2c1;
+    font: 16px arial;
+}
+
+#principal{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#principal #cabeçalho img{
+    width: 900px;
+}
+#principal #cabeçalho .menu a{
+    display: inline block;
+    text-decoration: none; /* tira o sublinhado */
+    color: #4b556a;
+    font-weight: 700;
+    padding:15px;
+}
+
+.menu{
+    background-color: #cdcd7f;
+}
+#principal #cabeçalho .menu a:hover{
+    color: rgb(255, 255, 255);
+}
+#conteudo {
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+#rodape h4{
+    margin: 0px;
+
+}
+#rodape{
+    background-color: #cdcd7f;
+    text-align: center;
+    padding: 15px;
+}
