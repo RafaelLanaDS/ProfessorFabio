@@ -1,0 +1,45 @@
+body {
+    background-color: #c0bfb6;
+    font: 16px arial;
+}
+
+#principal{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#principal #cabeçalho img{
+    width: 900px;
+}
+#principal #cabeçalho .menu a{
+    display: inline block;
+    text-decoration: none; /* tira o sublinhado */
+    color: #3a4866;
+    font-weight: 700;
+    padding:15px;
+}
+
+.menu{
+    padding: 8px;
+    background-color: #a5a59ec0;
+}
+#principal #cabeçalho .menu a:hover{
+    color: rgb(173, 148, 148);
+}
+#conteudo {
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+.contato p{
+    margin: 2px 0;
+
+}
+#rodape h4{
+    margin: 0px;
+
+}
+#rodape{
+    background-color: #a5a59ec0;
+    text-align: center;
+    padding: 15px;
+}
