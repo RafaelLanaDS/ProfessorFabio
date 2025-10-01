@@ -1,0 +1,33 @@
+body{
+    background: url(../Formulario/drive-download-20250930T235441Z-1-001/background.jpg);
+}
+.comtainer{
+    background-color: aliceblue;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.comtainer form input{
+    width: 200px;
+    margin: 5px;
+    height: 30px;
+    border: none;
+}
+
+.comtainer form button{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background-color:rgb(157, 0, 255) ;
+    color: white;
+    font-weight: bold;
+}
+
+.comtainer img{
+    width: 100px;
+    height: 100px;
+}
