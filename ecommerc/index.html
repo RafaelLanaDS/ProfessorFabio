@@ -1,59 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="cabecalho">
-        <div>
-            <img class="logo" src="images/logocommerce.png" alt="" srcset="">
+<html>
+    <head>
+        <title>Projeto Ecommerce</title>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="cabecalho">
             <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Temas</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Aplicativos</a></li>
-                </ul>
+                <img src="images/logocommerce.png" class="logo">
+                <div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Temas</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Aplicativo</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!--MAIN-->
-    <div id="corpo" class="container">
-        <!--Menu lateral-->
-        <div class="coluna-lateral">
-            <div class="caixa">
+        <div class="container" id="corpo">
+            <!--Menu lateral-->
+            <div class="coluna-lateral">
+              <div class="caixa">
                 <h2>Destaques</h2>
                 <ul class="link-lateral">
-                    <li><a href="">Transportadora</a></li>
-                    <li><a href="">Loja Virtual</a></li>
-                    <li><a href="">Marketplace</a></li>
-                    <li><a href="">Serviço</a></li>
-                    <li><a href="">Aplicativos</a></li>
+                    <li>
+                        <a href="">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="">Loja virtual</a>
+                    </li>
+                    <li>
+                        <a href="">Temas</a>
+                    </li>
+                    <li>
+                        <a href="">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="">Aplicativos</a>
+                    </li>
+                    <li>
+                        <a href="">Integrações</a>
+                    </li>
                 </ul>
+              </div>
+              
             </div>
-        </div>
-        <div class="coluna-aplicativo">
-            <div class="caixa">
-                <h2>Aplicativo</h2>
-                <div class="app">
-                    <h3>Erp para controle de estoque</h3>
-                    <img src="images/erp1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsum quis nisi quasi ut, hic aliquid aut quas eveniet, quisquam dignissimos dolores? Nemo vel adipisci consequuntur quidem fugiat laudantium sequi. <a href="">Saiba mais sobre a integração</a></p>
+            <div class="col-aplicativo">
+                <div class="caixa">
+                    <h2>Aplicativo Ecommerce</h2>
+                    <div class="app">
+                        <h3>ERP para controlar estoque</h3>
+                        <img src="images/erp1.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis quidem vero facere assumenda saepe, illo magnam eum ullam in vel natus cum dolores, odit error inventore nesciunt autem cumque.
+                            <a href="">Saiba mais sobre o ERP</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Aplicativo ERP</h2>
+                    <div class="app">
+                        <h3>ERP para emitr sua nota</h3>
+                        <img src="images/erp2.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita beatae ut eius iusto iure temporibus numquam odit quia. Reprehenderit, perferendis accusantium adipisci quae molestias enim recusandae molestiae repellat repellendus.
+                            <a href="">Saiba mais sobre o ERP</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="caixa">
-                <h2>Aplicativo ERP</h2>
-                <div class="app">
-                    <h3>ERP para gerenciar seu estoque online</h3>
-                    <img src="images/erp2.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam inventore vel maxime id nostrum placeat commodi dolore, distinctio odio rerum incidunt similique velit in quas porro asperiores libero ratione soluta. <a href="">Saiba mais sobre a integração</a></p>
+            <div class="col-tema">
+                <div class="caixa">
+                    <h2>Temas</h2>
+                    <div class="tema">
+                        <h3>Clock Store 2025</h3>
+                        <img src="images/tema1.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi cumque inventore placeat magnam neque vitae assumenda minima optio possimus commodi voluptatibus, consequuntur expedita dolorem! Rerum harum nihil rem repellendus placeat.
+                            <a href="">Clique aqui para comprar</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Temas</h2>
+                    <div class="tema">
+                        <h3>Food Alimento Store</h3>
+                        <img src="images/tema2.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iusto excepturi omnis, beatae eius natus iste ea at sit, ratione repellat temporibus pariatur est laudantium nostrum dolores officia soluta ullam.
+                            <a href="">Clique aqui para comprar</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+        <div id="rodape">
+            <div>
+                <p>
+                    Aula de Desenvolvimento Web Turma C
+                </p>
+            </div>
+        </div>
+    </body>
 </html>

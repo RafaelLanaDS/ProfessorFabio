@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+/*cabecalho*/
+#cabecalho{
+    background-color: rgb(65,105,225);
+    min-height: 230px;
+    margin-bottom: 50px;
+}
+#cabecalho div{
+    width: 750px;
+    margin: 0 auto;
+}
+#cabecalho .logo{
+    width: 140px;
+    height: 110px;
+    padding-top: 20px;
+}
+#cabecalho ul{
+    list-style: none;
+    background-color: white;
+    margin-top: 30px;
+    float: left;
+}
+#cabecalho ul>li{
+    float: left;
+}
+#cabecalho ul>li a{
+    color: rgb(65,105,225);
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+#cabecalho ul>li a:hover{
+    color: white;
+    background-color: rgb(65,105,225);
+}
+/*Corpo*/
+/*Coluna Lateral*/
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+.coluna-lateral{
+    float: left;
+    width: 180px;
+    margin: 0 10px 10px 0;
+}
+.coluna-lateral h2{
+    color: white;
+    background-color: rgb(65,105,225);
+    padding: 10px;
+}
+.coluna-lateral .caixa{
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+.link-lateral{
+    list-style: none;
+}
+.coluna-lateral .link-lateral li{
+    padding: 10px 10px 10px 0;
+}
+.coluna-lateral .link-lateral li>a{
+    text-decoration: none;
+    color: rgb(65,105,225);
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+.coluna-lateral .link-lateral li>a:hover{
+    background-color: rgb(65,105,225);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+/*Coluna de aplicativo e tema*/
+.col-aplicativo , .col-tema{
+    float: left;
+    margin: 0px 10px 10px 0;
+    width: 270px;
+}
+.col-aplicativo  .caixa h2{
+    padding: 10px;
+    background-color: rgb(65,105,225);
+    color: white;
+}
+.col-aplicativo  .caixa .app img{
+    max-width: 270px;
+}
+.col-aplicativo  .caixa .app h3{
+    color: rgb(65,105,225);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-aplicativo  .caixa .app p{
+    color: rgb(65,105,225);
+    margin-bottom: 10px;
+}
+.col-aplicativo  .caixa .app a{
+    color: blue;
+    margin-bottom: 10px;
+    display: block;
+}
+/*Temas*/
+.col-tema .caixa h2{
+    padding: 10px;
+    color: white;
+    background-color: rgb(65,105,225);
+}
+.col-tema .caixa .tema img{
+    max-width: 270px;
+}
+.col-tema .caixa h3{
+    margin-top: 10px;
+    color: rgb(65,105,225);
+    margin-bottom: 10px;
+}
+.col-tema .caixa .tema p{
+    color: rgb(65,105,225);
+    margin-bottom: 10px;
+}
+.col-tema .caixa .tema a{
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#rodape{
+    background-color: rgb(65,105,225);
+    height: 200px;
+    clear: both;
+}
+#rodape div{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+}

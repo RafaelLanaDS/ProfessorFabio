@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display flex</title>
+    <style>
+        .conteudo {
+            background-color: aliceblue;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            /* wrap = quebra a linha ao atingir o limite de largura
+            nowrap = não realiza 
+            */
+            flex-wrap: nowrap;
+            /*
+            Alinhamento horizontal
+            center = alinhamento ao centro
+            flex-start = alinhamento a esquerda 
+            stretch = alinhamento a esquerda 
+            */
+            justify-content: center;
+
+            /*Alinhamento  vertical 
+            center = alinhamento ao centro
+            flex-start = alinhamento a esquerda 
+            stretch = alinhamento a esquerda 
+            */
+            align-items: center;
+            /*row
+            row-revers
+            column
+            column-revers*/
+
+            flex-direction: row;
+
+
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(252, 251, 251);
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>display flex</h2>
+    <div class="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>
