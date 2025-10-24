@@ -6,37 +6,37 @@ body{
     background-color: white;
 }
 /*cabecalho*/
-#cabecalho{
+header {
     background-color: rgb(65,105,225);
     min-height: 230px;
     margin-bottom: 50px;
 }
-#cabecalho div{
+header div{
     width: 750px;
     margin: 0 auto;
 }
-#cabecalho .logo{
+header .logo{
     width: 140px;
     height: 110px;
     padding-top: 20px;
 }
-#cabecalho ul{
+header  ul{
     list-style: none;
     background-color: white;
     margin-top: 30px;
     float: left;
 }
-#cabecalho ul>li{
+header ul>li{
     float: left;
 }
-#cabecalho ul>li a{
+header ul>li a{
     color: rgb(65,105,225);
     text-decoration: none;
     font-size: 16px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 30px;
 }
-#cabecalho ul>li a:hover{
+header ul>li a:hover{
     color: white;
     background-color: rgb(65,105,225);
 }
@@ -130,12 +130,12 @@ body{
     margin-bottom: 10px;
 }
 
-#rodape{
+footer{
     background-color: rgb(65,105,225);
     height: 200px;
     clear: both;
 }
-#rodape div{
+footer{
     text-align: center;
     font-weight: bold;
     color: white;
