@@ -1,0 +1,16 @@
+@media(min-width: 576px){
+    .bg-media-min{
+        background-color: blue;
+    }
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 992px){
+
+}269
+@media(min-width: 1200px){
+    .bg-media-min{
+        background-color: violet;
+    }
+}
