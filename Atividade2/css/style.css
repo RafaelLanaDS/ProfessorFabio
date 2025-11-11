@@ -1,0 +1,51 @@
+/*SM*/
+@media (min-width: 576px){
+    .bg-media-min{
+        background-color: black;
+    }
+}
+/*MD*/
+@media (min-width: 768px){
+    .bg-media-min{
+        background-color: blue;
+    }
+}
+/*LG*/
+@media (min-width: 992px){
+    .bg-media-min{
+        background-color: aqua;
+    }
+}
+/*XL*/
+@media (min-width: 1200px){
+    .bg-media-min{
+        background-color: green;
+    }
+}
+
+
+/*delimitado ao intervalo SM */
+@media (min-width: 576px) and (max-width:767.98px){
+    .bg-media{
+        margin-top: 20px;
+        background-color: black;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    .bg-media{
+        margin-top: 20px;
+        background-color: green;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    .bg-media{
+        margin-top: 20px;
+        background-color: yellow;
+    }
+}
+ @media (min-width: 1200px) {  
+       .bg-media{
+        margin-top: 20px;
+        background-color: purple;
+    } 
+ }
