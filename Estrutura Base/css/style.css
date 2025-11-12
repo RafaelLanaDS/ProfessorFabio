@@ -1,0 +1,19 @@
+:root{
+    --global-backgraund: #9932cc;
+    --global-purple: #9932cc;
+}
+
+.bg-purple{
+    background-color: var(--global-backgraund);
+}
+.logo{
+    max-width: 300px;
+    width: 100%;
+    height: 30px;
+}
+#home .img {
+    max-height: 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
